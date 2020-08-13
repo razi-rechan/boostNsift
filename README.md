@@ -13,8 +13,11 @@ BoostNSift is a new, method-level, Information-Retrieval based bug localization 
   
 # Dataset Descriptions:
 --Each line of corpus file contain the corpus of each method in software system. IMPRTANT: Line number where a method is located is considered as 'id' of that method
+
 --Each line in queries files contain title, description+comments or comments
+
 --Both above mentioned files contain data in pre-processed format: following the pre-processing steps describe in paper
+
 --IMPRTANT:Each line in AnswerMatrix file represent the ids of the methods fixed against each query. Here, line number corresponds to the query number (line in queries file) and id number of method is the line number of the method located in corpus file
 
  Abdul razzaq (abdul.razzaq@ul.ie)
