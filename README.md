@@ -7,7 +7,7 @@ BoostNSift is a new, method-level, Information-Retrieval based bug localization 
   
   2)-To perform BoostNSift analysis, import the BoostNSift project (preferably in eclipse using Java 11). Then, open the file BoostNSift.java and provide the paths to the input files required i.e. title of the bugs, descriptions of the bug, comments in the bugs and corpus of the methods. Note that lib directory in project contains all the jar files required in BoostNSift. Also note that in our dataset comments are added in descriptions hence to weight them two time higher we just incorporated them in technique one more time (See comments in BoostNSift.java for details).
   
-  3)-BoostNSift will provide you the intermediate results to assess them with all possible evaluation measures. To assess the results using the evaluation measures have used in our paper, please run the python script attached. That script will required the intermediate result (created in previous step) and Answer Matrix (given in dataset folder) files as input.
+  3)-BoostNSift will provide you the intermediate results to assess them with all possible evaluation measures. To assess the results using the evaluation measures have used in our paper, please run the python scripts attached (BoostNsiftEvaluationScript.py file is main file which will make use of rank_metrics.py file). That script will required the intermediate result (created in previous step) and Answer Matrix (given in dataset folder) files as input.
   
  Abdul razzaq (abdul.razzaq@ul.ie)
 
