@@ -80,6 +80,6 @@ print(np.mean(np.array(results)[:,0:2], axis=0))
 print(np.sum(np.array(results, int)[:,2:7], axis=0))
 #print(res)
 np.savetxt("./Results/SWT_IR_Results.csv", results, fmt='%s')
-            #writer1.writerow(list(a))
-            #writer1.writerow(list(score))
+            writer1.writerow(list(a))
+            writer1.writerow(list(score))
 
